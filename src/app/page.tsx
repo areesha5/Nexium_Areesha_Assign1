@@ -9,12 +9,12 @@ export default function Home() {
   const [topic, setTopic] = useState("");
   const [filteredQuotes, setFilteredQuotes] = useState<string[]>([]);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const result = quotes
-      .filter((q) => q.topic.toLowerCase() === topic.toLowerCase())
+      .filter((q: { topic: string }) => q.topic.toLowerCase() === topic.toLowerCase())
       .slice(0, 3)
-      .map((q) => q.text);
+      .map((q: { text: string }) => q.text);
     setFilteredQuotes(result);
   };
 
