@@ -1,19 +1,18 @@
-# Nexium_Areesha_Assign1 – Quote Generator Web App
+# ✨ Quote Generator Web App by Areesha Arsalan
 
-This is a quote generator web app built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **ShadCN UI**.
+[![Quote Generator Banner](./public/banner.png)](https://nexium-areesha-assign1-a6hg2z0v5-areeshas-projects-684b2d8e.vercel.app)
 
-## ✨ Features
+A sleek and animated quote generator built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. Enter any word or topic and get 3 inspiring quotes related to it — beautifully animated in a vibrant UI.
 
-- ShadCN UI form to enter a topic
-- Displays 3 quotes from a local JSON array
-- Responsive, clean UI
-- Deployed on Vercel
-- Auto deployment via n8n webhook (optional)
+🔗 **Live Demo**: [Click to view app](https://nexium-areesha-assign1-a6hg2z0v5-areeshas-projects-684b2d8e.vercel.app)
+
+---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+First, clone the project and install dependencies:
 
 ```bash
 git clone https://github.com/areesha5/Nexium_Areesha_Assign1.git
 cd Nexium_Areesha_Assign1
+npm install
