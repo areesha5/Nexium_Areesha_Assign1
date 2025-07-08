@@ -1,5 +1,7 @@
 # ✨ Quote Generator Web App by Areesha Arsalan
 
+![Banner](./banner.png)
+
 [![Quote Generator Banner](./public/banner.png)](https://nexium-areesha-assign1-a6hg2z0v5-areeshas-projects-684b2d8e.vercel.app)
 
 A sleek and animated quote generator built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. Enter any word or topic and get 3 inspiring quotes related to it — beautifully animated in a vibrant UI.
